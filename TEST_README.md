@@ -1,15 +1,48 @@
-# RU/MMI Regression Tests
+# ATP_re Testing Framework
 
-This repository includes a batch testing script for RU (Recording Unit) decoder and MMI (Man-Machine Interface) regression tests.
+This repository includes a comprehensive testing framework for RU (Recording Unit) decoder and MMI (Man-Machine Interface) components.
 
-## Files
+## Quick Links
 
-- **test_batch.sh**: Batch test runner script
-- **.github/workflows/ru-mmi-regression.yml**: GitHub Actions workflow for automated testing
+- **[Full Testing Framework Documentation](./TESTING_FRAMEWORK.md)** - Complete testing guide
+- **[Contributing to Tests](./CONTRIBUTING_TESTS.md)** - Guide for writing tests
+- **[CI/CD Workflow](./.github/workflows/ru-mmi-regression.yml)** - Automated testing configuration
 
-## Usage
+## Test Components
 
-### Running Tests Locally
+### 1. Unit Tests (JUnit 5)
+- **Location**: `tests/java/`
+- **Run**: `mvn test`
+- **Coverage**: `mvn jacoco:report`
+
+### 2. Regression Tests (Bash)
+- **Script**: `test_batch.sh`
+- **Run**: `./test_batch.sh`
+
+### 3. CI/CD Integration
+- **Workflow**: `.github/workflows/ru-mmi-regression.yml`
+- **Triggers**: Push to main, Pull requests
+
+## Quick Start
+
+### Running Unit Tests
+
+```bash
+# Install Maven (if not already installed)
+# Ubuntu/Debian: sudo apt-get install maven
+# macOS: brew install maven
+
+# Run all tests
+mvn test
+
+# Run tests with coverage report
+mvn clean test jacoco:report
+
+# View coverage report
+open target/site/jacoco/index.html
+```
+
+### Running Regression Tests
 
 ```bash
 # Make the script executable (if not already)
