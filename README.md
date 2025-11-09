@@ -53,6 +53,18 @@ ATP_re 是一個完整的鐵路 ATP 系統資料分析與管理工作站軟體�
 - 技術選型與架構設計
 - 測試策略與品質標準
 
+**API 參考：** [docs/API_DOCUMENTATION.md](./docs/API_DOCUMENTATION.md)
+- 解碼器 API 詳細說明
+- 資料模型 API
+- 工具類 API
+- 程式碼範例
+
+**測試指南：** [docs/TESTING_GUIDE.md](./docs/TESTING_GUIDE.md)
+- 測試策略與方法
+- 單元測試與整合測試
+- 測試資料準備
+- CI/CD 設定
+
 ### 🔍 系統分析師 / 架構師
 **從這裡開始：** [00_Project_Summary.md](./00_Project_Summary.md)
 - 系統架構總覽
@@ -64,6 +76,25 @@ ATP_re 是一個完整的鐵路 ATP 系統資料分析與管理工作站軟體�
 - [ATP 行車紀錄分析系統 - 完整技術規格書 v2 0.md](./ATP%20行車紀錄分析系統%20-%20完整技術規格書%20v2%200%2029855714413f81b1b980eedb85bea559.md) - 完整技術規格
 - [decoder_re_Analysis.md](./decoder_re_Analysis.md) - 解碼器分析
 - [RU_DECODER_UPDATE_NOTES.md](./RU_DECODER_UPDATE_NOTES.md) - 解碼器更新說明
+
+### 👥 使用者 / 維運人員
+**使用者手冊：** [docs/USER_MANUAL.md](./docs/USER_MANUAL.md)
+- 系統安裝與設定
+- 基本操作說明
+- 功能模組使用
+- 常見問題解答
+
+**部署指南：** [docs/DEPLOYMENT_GUIDE.md](./docs/DEPLOYMENT_GUIDE.md)
+- Windows 部署步驟
+- macOS 部署步驟
+- 資料庫設定
+- 效能調校
+
+**故障排除：** [docs/TROUBLESHOOTING.md](./docs/TROUBLESHOOTING.md)
+- 常見問題診斷
+- 錯誤代碼對照
+- 日誌分析
+- 技術支援聯絡
 
 ---
 
