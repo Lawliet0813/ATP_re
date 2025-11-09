@@ -28,12 +28,39 @@ ATP_re 是一個完整的鐵路 ATP 系統資料分析與管理工作站軟體�
 
 ---
 
+## 📁 專案結構
+
+```
+ATP_re/
+├── docs/                    # 📚 所有專案文件
+│   ├── 00_Project_Summary.md
+│   ├── EXECUTIVE_SUMMARY.md
+│   ├── QUICK_START.md
+│   ├── ROADMAP.md
+│   ├── *_Analysis.md       # 各模組分析文件
+│   └── issues/             # 議題追蹤
+├── src/                     # 💻 所有原始碼
+│   ├── Tools_re/           # 工具集合層
+│   ├── connect_re/         # 資料存取層
+│   ├── core_re/            # 核心資料模型層
+│   ├── decode_re/          # 基礎解碼層
+│   ├── decoder_re/         # 進階解碼引擎
+│   ├── drawGraphics_re/    # 圖形繪製層
+│   ├── ui_re/              # 使用者介面層
+│   └── com/                # Java package 結構
+├── .github/                 # GitHub Actions 和 workflows
+├── README.md               # 本文件
+└── .gitignore              # Git 忽略規則
+```
+
+---
+
 ## 📚 文件導覽
 
 根據你的角色選擇適合的文件：
 
 ### 🏢 管理層 / 決策者
-**從這裡開始：** [EXECUTIVE_SUMMARY.md](./EXECUTIVE_SUMMARY.md)
+**從這裡開始：** [EXECUTIVE_SUMMARY.md](./docs/EXECUTIVE_SUMMARY.md)
 - 投資回報分析（ROI）
 - 風險評估
 - 資源需求
@@ -41,29 +68,29 @@ ATP_re 是一個完整的鐵路 ATP 系統資料分析與管理工作站軟體�
 - 決策建議
 
 ### 👨‍💻 開發者 / 技術人員
-**從這裡開始：** [QUICK_START.md](./QUICK_START.md)
+**從這裡開始：** [QUICK_START.md](./docs/QUICK_START.md)
 - 快速入門指南
 - 如何參與開發
 - 環境設定
 - 常見問題
 
-**深入了解：** [ROADMAP.md](./ROADMAP.md)
+**深入了解：** [ROADMAP.md](./docs/ROADMAP.md)
 - 完整的 18 個月開發路線圖
 - 8 個階段詳細規劃
 - 技術選型與架構設計
 - 測試策略與品質標準
 
 ### 🔍 系統分析師 / 架構師
-**從這裡開始：** [00_Project_Summary.md](./00_Project_Summary.md)
+**從這裡開始：** [00_Project_Summary.md](./docs/00_Project_Summary.md)
 - 系統架構總覽
 - 各模組功能說明
 - 技術棧分析
 - 改進建議
 
 **深入了解：** 
-- [ATP 行車紀錄分析系統 - 完整技術規格書 v2 0.md](./ATP%20行車紀錄分析系統%20-%20完整技術規格書%20v2%200%2029855714413f81b1b980eedb85bea559.md) - 完整技術規格
-- [decoder_re_Analysis.md](./decoder_re_Analysis.md) - 解碼器分析
-- [RU_DECODER_UPDATE_NOTES.md](./RU_DECODER_UPDATE_NOTES.md) - 解碼器更新說明
+- [ATP 行車紀錄分析系統 - 完整技術規格書 v2 0.md](./docs/ATP%20行車紀錄分析系統%20-%20完整技術規格書%20v2%200%2029855714413f81b1b980eedb85bea559.md) - 完整技術規格
+- [decoder_re_Analysis.md](./docs/decoder_re_Analysis.md) - 解碼器分析
+- [RU_DECODER_UPDATE_NOTES.md](./docs/RU_DECODER_UPDATE_NOTES.md) - 解碼器更新說明
 
 ---
 
@@ -210,8 +237,8 @@ ATP_re 是一個完整的鐵路 ATP 系統資料分析與管理工作站軟體�
 ### 開發者
 
 1. **閱讀文件**
-   - [QUICK_START.md](./QUICK_START.md) - 快速入門
-   - [ROADMAP.md](./ROADMAP.md) - 開發路線圖
+   - [QUICK_START.md](./docs/QUICK_START.md) - 快速入門
+   - [ROADMAP.md](./docs/ROADMAP.md) - 開發路線圖
 
 2. **選擇階段**
    - Phase 1: 改善 Java 程式碼（需要 Java 經驗）
@@ -226,8 +253,8 @@ ATP_re 是一個完整的鐵路 ATP 系統資料分析與管理工作站軟體�
 ### 管理者
 
 1. **審閱規劃**
-   - [EXECUTIVE_SUMMARY.md](./EXECUTIVE_SUMMARY.md) - 執行摘要
-   - [ROADMAP.md](./ROADMAP.md) - 詳細路線圖
+   - [EXECUTIVE_SUMMARY.md](./docs/EXECUTIVE_SUMMARY.md) - 執行摘要
+   - [ROADMAP.md](./docs/ROADMAP.md) - 詳細路線圖
 
 2. **決策批准**
    - 確認資源配置
