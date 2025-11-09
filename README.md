@@ -53,6 +53,8 @@ ATP_re/
 └── .gitignore              # Git 忽略規則
 ```
 
+> 📖 **想了解更多關於專案結構？** 請參閱 [REPOSITORY_STRUCTURE.md](./docs/REPOSITORY_STRUCTURE.md) 了解詳細的資料夾組織與文件說明。
+
 ---
 
 ## 📚 文件導覽
